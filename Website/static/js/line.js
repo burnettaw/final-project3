@@ -65,7 +65,7 @@ function optionChanged(selOption) {
     //  doughnut  
     new Chart(document.getElementById("doughnut-chart"), {
         // type: 'doughnut',
-        type: 'line',
+        type: 'bar',
         data: {
             labels: label_list,
             datasets: [
